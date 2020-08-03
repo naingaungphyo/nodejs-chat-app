@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/naingaungphyo/nodejs-chat-app#readme",
   "dependencies": {
+    "bad-words": "^3.0.3",
     "express": "^4.17.1",
     "socket.io": "^2.3.0"
   }
