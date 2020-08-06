@@ -23,7 +23,7 @@ socket.on('message', (message) => {
   console.log(message)
   const html = Mustache.render(messageTemplate, {
     message
-  }) // second parameter is object, to be rendered in template
+  }) // first parameter is template, second parameter is object, to be rendered in template
   $messages.insertAdjacentHTML('beforeend', html)
 })
 
